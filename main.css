@@ -18,9 +18,13 @@ div{
 .dropdown-bar{
     display: inline-block;
     position: relative;
-    padding: 5px 7px;
+    /*padding: 5px 7px;*/
     margin: 2px 5px;
 
+}
+
+.dropdown-bar>span{
+    padding: 5px 7px;
 }
 
 .dropdown-box{
@@ -38,4 +42,20 @@ div{
 
 .dropdown-bar:hover .dropdown-box{
     display: block;
+}
+
+.nav{
+    display: inline-block;
+    position: relative;
+    /*margin-left: 500px;*/
+
+
+}
+
+.nav>a{
+    /*display: inline;*/
+    /*position: relative;*/
+    /*border: green solid 1px;*/
+    /*width: 100px;*/
+    /*height: 100px;*/
 }
