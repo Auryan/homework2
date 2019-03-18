@@ -31,6 +31,7 @@ div{
     display: none;
     background-color: slategrey;
     position: absolute;
+    margin: 0;
 
 }
 
@@ -47,15 +48,16 @@ div{
 .nav{
     display: inline-block;
     position: relative;
-    /*margin-left: 500px;*/
-
+    /*float: right;*/
+    margin-left: 450px;
 
 }
 
-.nav>a{
-    /*display: inline;*/
-    /*position: relative;*/
-    /*border: green solid 1px;*/
-    /*width: 100px;*/
-    /*height: 100px;*/
+.nav>button{
+    display: inline;
+    position: relative;
+    border: green solid 1px;
+    width: 70px;
+    height: 20px;
+    /*box-sizing: ;*/
 }
