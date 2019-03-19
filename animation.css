@@ -19,7 +19,7 @@
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    border-color: red;
+    border-color: dimgray;
     display: inline-block;
     background-color: dimgray;
     text-align: center;
@@ -27,7 +27,7 @@
 
 .first-img, .second-img{
     display: none;
-    position: relative;
+    /*position: relative;*/
     text-align: center;
 }
 
@@ -38,20 +38,36 @@
 .img{
     width: 150px;
     height: 200px;
-    text-align: center;
-    margin: 20px;
+    /*text-align: center;*/
+    margin: 15px 0;
 }
 
-.doc2:hover{
-    width: 25px;
+.doc1:hover{
+    width: 26px;
+    background-color: red;
     animation-duration: 3s;
+}
+.doc1:hover .first-img{
+    display: block;
+}
+
+.doc1:hover .second-img{
+    display: none;
+}
+
+
+.doc2:hover{
+    width: 26px;
+    background-color: red;
+    animation-duration: 3s;
+}
+.doc2:hover .first-img{
+    display: none;
 }
 .doc2:hover .second-img{
     display: block;
 }
 
-.doc2:hover .first-img{
-    display: none;
-}
+
 
 
